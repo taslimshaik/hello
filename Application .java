@@ -1,4 +1,25 @@
-public class MyClass {
+
+}#HDFC application file
+  public class SimpleMethodExample {
+
+    // Method that takes two integers and returns their sum
+    public static int addNumbers(int a, int b) {
+        int sum = a + b;
+        return sum;
+    }
+
+    public static void main(String[] args) {
+        // Calling the method and storing the result
+        int result = addNumbers(5, 7);
+
+        // Printing the result
+        System.out.println("The sum is: " + result);
+    }
+}
+
+#feature-201 changes by ethan for the module reports on oct 2024
+
+   public class MyClass {
 
     // Public field
     public int publicField = 10;
@@ -19,20 +40,4 @@ public class MyClass {
         // Calling the public method
         myObject.publicMethod();
     }
-}#HDFC application file
-  public class SimpleMethodExample {
 
-    // Method that takes two integers and returns their sum
-    public static int addNumbers(int a, int b) {
-        int sum = a + b;
-        return sum;
-    }
-
-    public static void main(String[] args) {
-        // Calling the method and storing the result
-        int result = addNumbers(5, 7);
-
-        // Printing the result
-        System.out.println("The sum is: " + result);
-    }
-}
