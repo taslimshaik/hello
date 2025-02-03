@@ -16,6 +16,7 @@
         System.out.println("The sum is: " + result);
     }
 }
+feature-202
 # feature-202 change by vivek  for the module reports on oc 2024
 
   // File: Animal.java
@@ -32,6 +33,8 @@ public class Animal {
     }
 }
 
+feature-201
+main
 
 #feature-201 changes by ethan for the module reports on oct 2024
 
@@ -57,3 +60,20 @@ public class Animal {
         myObject.publicMethod();
     }
 
+
+# feature-202 change by vivek  for the module reports on oc 2024
+
+  // File: Animal.java
+
+// A class with protected access specifier
+public class Animal {
+
+    // Protected field
+    protected String species = "Unknown"; // Initialize with a default value
+
+    // Protected method
+    protected void makeSound() {
+        System.out.println("Some generic animal sound");
+    }
+}
+ main
